@@ -2,7 +2,7 @@
 
 import  cv2
 #  staring  camera
-cap=cv2.VideoCapture('http://192.168.43.67:8080/video?q=')
+cap=cv2.VideoCapture(0)
 while  cap.isOpened() :
     status,frame=cap.read()
     #  converting  image  frame into gray scale 

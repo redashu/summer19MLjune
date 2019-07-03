@@ -12,7 +12,7 @@ while  cap.isOpened() :
     status,frame=cap.read()
     cv2.imshow('live',frame)
     #   draw  pattern 
-    output.write(frame)   #  sending  data  to VideoWrite 
+    #output.write(frame)   #  sending  data  to VideoWrite 
     if  cv2.waitKey(10)   &   0xff  ==  ord('q')  :
         break
 cv2.destroyAllWindows()  #   this will destroy all windows 

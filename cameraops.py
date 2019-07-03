@@ -3,7 +3,7 @@
 import  cv2
 
 #  staring  camera
-cap=cv2.VideoCapture(1)
+cap=cv2.VideoCapture(0)
 #                   first  camera  
 #  to check  camera is started or  not  
 if  cap.isOpened() :
